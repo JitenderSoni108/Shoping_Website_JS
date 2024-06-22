@@ -119,6 +119,7 @@ img {
 }
 
 @media screen and (max-width: 720px) {
+    
     img {
         height: 10em;
     }
@@ -138,6 +139,9 @@ img {
 @media screen and (max-width: 480px) {
     #search_container input {
         width: 80%;
+    }
+    .wrapper #buttons{
+        width:max-content;
     }
 
     #search_container button {
